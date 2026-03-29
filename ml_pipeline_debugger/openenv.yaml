@@ -1,0 +1,15 @@
+spec_version: 1
+name: ml_pipeline_debugger
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+description: >
+  An RL environment where agents learn to debug broken ML training pipelines.
+  Three tasks of increasing difficulty: hyperparameter bombs, NaN data pipelines,
+  and silent underfitting from architecture bugs.
+tags:
+  - openenv
+  - ml-debugging
+  - reinforcement-learning
+  - pytorch
