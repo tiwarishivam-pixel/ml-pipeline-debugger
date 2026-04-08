@@ -1,0 +1,116 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# Environment Variables (IMPORTANT)
+# -----------------------------
+.env
+.env.*
+*.env
+
+# -----------------------------
+# Logs & Runtime Files
+# -----------------------------
+*.log
+*.out
+*.err
+logs/
+tmp/
+
+# -----------------------------
+# FastAPI / Uvicorn
+# -----------------------------
+*.pid
+*.pid.lock
+
+# -----------------------------
+# Database
+# -----------------------------
+*.db
+*.sqlite3
+
+# -----------------------------
+# Cache
+# -----------------------------
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# -----------------------------
+# Testing / Coverage
+# -----------------------------
+.coverage
+coverage.xml
+htmlcov/
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# Static / Media (optional)
+# -----------------------------
+staticfiles/
+media/
+
+# -----------------------------
+# Secrets / API Keys (extra safety)
+# -----------------------------
+secrets.json
+*.pem
+*.key
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.bak
+*.tmp
